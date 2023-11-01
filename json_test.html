@@ -1,0 +1,48 @@
+<script>
+// GET 요청
+// fetch("http://localhost:3000/posts")
+//         .then((response) => response.json())
+//         .then((json) => console.log(json));
+
+// fetch("http://localhost:3000/posts/2")
+//         .then((response) => response.json())
+//         .then((json) => console.log(json));
+
+// fetch("http://localhost:3000/posts?postId=1")
+//         .then((response) => response.json())
+//         .then((json) => console.log(json));
+
+// POST 요청
+// fetch("http://localhost:3000/posts", {
+//     method: "POST",
+//     body: JSON.stringify({
+//         // 전송할 데이터
+//         title: "The Great",
+//         author: "Jeremy"
+//     }),
+//     headers: {
+//         "content-type": "application/json; charset=UTF-8"
+//     }
+// })
+//     .then((response) => response.json())
+//     .then((json) => console.log(json));
+
+// PUT 요청
+// fetch("http://localhost:3000/posts/2", {
+//     method: "PUT", // HTTP 요청 방법
+//     body: JSON.stringify({
+//         // 전송할 데이터
+//         id: 2,
+//         title: "The eee",
+//         author: "ggg"
+//     }),
+//     headers: {
+//         "content-type": "application/json; charset=UTF-8"
+//     }
+// })
+//     .then((response) => response.json())
+//     .then((json) => console.log(json));
+
+// DELETE 요청
+fetch("http://localhost:3000/posts/2", {method: "DELETE"});
+</script>
